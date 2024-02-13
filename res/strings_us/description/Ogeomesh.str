@@ -1,0 +1,44 @@
+STRINGTABLE Ogeomesh {
+
+    Ogeomesh                            "GeoTIFF to Mesh converter";
+
+    ID_GEOTIFF_DATA                     "Geotiff data";
+
+    GEOTIFF_FILE                        "File";
+    GEOTIFF_UNITS                       "Units";
+    GEOTIFF_UNITS_METERS                "Meters";
+    GEOTIFF_UNITS_DEGREES               "Degrees";
+    GEOTIFF_LAYER                       "Layer";
+    GEOTIFF_NO_DATA                     "No data value";
+    GEOTIFF_SHOW_COORDS                 "Show BBox coordinates";
+
+
+    ID_GEOMESH_PROPERTIES               "Properties";
+    GEOMESH_TYPE                        "Type";
+    GEOMESH_TYPE_TRN                    "Triangular regular network (TRN)";
+    GEOMESH_TYPE_TIN                    "Triangular irregular network (TIN)";
+    GEOMESH_STEP                        "Step";
+    GEOMESH_GLOBAL_SCALE                "Global scale";
+    GEOMESH_MEASURE_SCALE               "Measure scale";
+    GEOMESH_VERTICAL_ALIGN              "Vertical align";
+    GEOMESH_VERTICAL_MIN_VALUE          "Min value";
+    GEOMESH_VERTICAL_MAX_VALUE          "Max value";
+    GEOMESH_VERTICAL_MEAN_VALUE         "Mean value";
+    GEOMESH_VERTICAL_CENTER_VALUE       "Center value";
+    GEOMESH_VERTICAL_SOLID_BASE         "Solid base";
+    GEOMESH_SOLID_BASE                  "Solid base";
+    GEOMESH_BASE_THICKNESS              "Base thickness";
+    GEOMESH_UVW                         "UVW";
+    GEOMESH_UVW_TOP_VIEW                "Top view";
+    GEOMESH_UVW_HEIGHT                  "Height";
+    
+    ID_GEOMESH_TIN_PROPERTIES           "TIN properties";
+    GEOMESH_TYPE_TIN_SEED               "Seed";
+    GEOMESH_GAUSSIAN_SAMPLING_THRESHOLD "Gaussian sampling threshold";
+    GEOMESH_UNIFORM_SAMPLING_THRESHOLD  "Uniform sampling threshold";
+    GEOMESH_GRADIENT_THRESHOLD          "Gradient sampling threshold";
+
+
+    GEOMESH_GENERATE                    "Generate";
+
+}
