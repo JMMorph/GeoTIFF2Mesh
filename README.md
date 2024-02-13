@@ -29,11 +29,17 @@ pip install rasterio
 pip install shapely
 ` 
 
-## Plugin Installation
+## Installation:
+To install the GeoTIFF2Mesh plugin for Cinema 4D:
 
-You can install GeoTIFF2Mesh by either cloning this repository or downloading the folder and placing it in the Cinema 4D plugins directory. After installing the plugin, restart Cinema 4D to activate it.
+1.  Download the plugin or clone this repo.
+2.  Unzip the downloaded archive and copy the "GeoTIFF2Mesh" folder into the Cinema 4D plugins directory, this is:
+	- Windows:  `C:\Program Files\MAXON\CINEMA 4D RXX\plugins\`
+	- Mac OS:  `/Applications/MAXON/CINEMA 4D RXX/plugins/`
 
 ## Parameters
+
+
 
 **File:** Geotiff file  
 **Units:** Map units, either meters or degrees  
@@ -52,10 +58,15 @@ You can install GeoTIFF2Mesh by either cloning this repository or downloading th
 
 **Generate:** Boolean option indicating whether to generate the 3D object or not; recommended to keep as False until all other values are defined.
 
+![d1](./images/demo1.jpg)
+
 
 ## Usage
 
 Once installed, access GeoTIFF2Mesh from the Cinema 4D plugins menu. Configure the parameters according to your requirements, and then import and visualize your GeoTIFF terrain data as a 3D mesh directly within Cinema 4D. The generated mesh is fully editable and can be further customized using Cinema 4D's extensive modeling and rendering capabilities.
+
+![d2](./images/demo2.jpg)
+![d3](./images/demo3.jpg)
 
 ## License
 
